@@ -129,6 +129,15 @@ body {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 4.8rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--center-v {
@@ -151,6 +160,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.margin-top {
+  margin-top: 9.6rem;
+}
+
+.margin-bottom {
+  margin-bottom: 9.6rem;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -167,8 +184,27 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #cf711f;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 .center-text {
