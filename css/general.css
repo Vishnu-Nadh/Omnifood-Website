@@ -88,6 +88,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -98,6 +99,23 @@ body {
   color: #fdf2e9;
   border-radius: 10px;
   transition: all 1s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--form {
+  background-color: #2e1907;
+  align-self: end;
+  padding: 1.2rem;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 3.5px rgba(230, 125, 34, 0.4);
+}
+
+.btn--form:hover {
+  color: #555;
+  background-color: #fdf2e9;
 }
 
 .btn--full:link,
