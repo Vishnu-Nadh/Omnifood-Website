@@ -177,6 +177,9 @@ body {
 .grid--4--col {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5--col {
+  grid-template-columns: repeat(5, 1fr);
+}
 
 .margin-top {
   margin-top: 9.6rem;

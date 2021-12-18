@@ -9,7 +9,7 @@
 
 .logo {
   height: 2rem;
-  padding: 0 6.4rem;
+  margin: 0 6.4rem;
 }
 /* ........................... */
 
@@ -434,7 +434,7 @@
 
 /* -----------cta-section--------- */
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 .cta {
   display: grid;
@@ -507,4 +507,77 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 3.5px rgba(250, 229, 211, 0.45);
+}
+
+/* ................ */
+
+/* -----footer------ */
+.footer {
+  padding: 12.8rem;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-logo {
+  height: 2rem;
+  display: block;
+  margin-bottom: 4rem;
+  padding: 0;
+}
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+.contacts {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.contact-address {
+  margin-bottom: 2.4rem;
 }
