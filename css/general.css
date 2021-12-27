@@ -50,6 +50,9 @@ SPACING SYSTEM (px)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* scroll smooth works only in google chrome and firefox as of now */
+  /* scroll-behavior: smooth; */
 }
 
 body {
