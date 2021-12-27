@@ -33,7 +33,7 @@ Go to the project directory you want to clone the project files
 
 This project is deployed in the cloud service of Netlify
 
-- website link : [![Omnifood-vishnunadh](https://omnifood-byvishnunadh.netlify.app/)
+- website link : [Omnifood-vishnunadh](https://omnifood-byvishnunadh.netlify.app/)
 
 ## Reflection
 
