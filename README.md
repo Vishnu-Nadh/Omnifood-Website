@@ -9,7 +9,7 @@ This is a front-end development project of the website of Omnifood which is a im
 
 ## Demo
 
-![App Demo](img\omnifood.gif)
+![App Demo](img/omnifood.gif)
 
 ## Tech Stack
 
