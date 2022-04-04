@@ -47,7 +47,7 @@ This project is deployed in the cloud service of Netlify
 ## 🚀 About Me
 
 - 📈I'm a Data scientist...
-- 🖥Front end developer..
+- 🖥Full stack Python Developer..
 - 💻Tech enthusiast..
 - 📖Avid learner..
 
